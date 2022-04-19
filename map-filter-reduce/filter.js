@@ -1101,3 +1101,12 @@ console.log(tempList);
 // });
 
 // console.warn(foundedFilter);
+
+
+//search
+
+const names = ["walter white","jesse pinkman","gustavo fring","skyler white","hank uncle","saul goodman"]
+
+const search = keyword => names.filter(name => name.toLowerCase().includes(keyword.toLowerCase()));
+
+console.log(search("er"));

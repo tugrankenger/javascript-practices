@@ -1155,3 +1155,32 @@ console.log(
         return acc
     },[])
 );
+
+
+let programmingLanguages = [
+    {
+        title:"frontend",
+        tags: ["react","vue","angular","java"]
+    },
+    {
+        title:"backend",
+        tags: ["nodejs","spring boot",".net","vue"]
+    },
+    {
+        title:"artificial intelligence",
+        tags: ["python","scala","java","nodejs"]
+    },
+]
+
+const allTags = programmingLanguages.reduce((acc, currVal) => [...acc, ...currVal.tags],[])
+
+console.log(allTags);
+
+const singleResult = allTags.reduce((acc,currVal)=>{
+    if(!acc.includes(currVal)){
+        acc.push(currVal);
+    }
+    return acc;
+},[]);
+
+console.log(singleResult);
