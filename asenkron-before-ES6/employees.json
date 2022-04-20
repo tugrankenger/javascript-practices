@@ -1,0 +1,17 @@
+[
+    {
+        "name":"triyon lannister",
+        "department":"informaition",
+        "salary": 3456
+    },
+    {
+        "name":"rob stark",
+        "department":"war",
+        "salary":200
+    },
+    {
+        "name":"sansa stark",
+        "department":"bitch",
+        "salary":999
+    }
+]
