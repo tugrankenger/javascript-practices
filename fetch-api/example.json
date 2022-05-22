@@ -1,0 +1,17 @@
+[
+    {
+        "name":"john locke",
+        "age":33,
+        "job":"hunter"
+    },
+    {
+        "name":"jack",
+        "age":30,
+        "job":"doctor"
+    },
+    {
+        "name":"desmond",
+        "age":29,
+        "job":"unemployed"
+    }
+]
