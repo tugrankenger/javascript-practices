@@ -72,3 +72,4 @@ request.put('https://jsonplaceholder.typicode.com/posts/1',{body:"tugrankenger",
 request.delete('https://jsonplaceholder.typicode.com/albums/1')
 .then(resultText => console.log(resultText))
 .catch(err => console.error(err))
+
