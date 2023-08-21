@@ -1,0 +1,77 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fcfcfc;
+  width: 100vw;
+  height: 100vh;
+}
+
+.container {
+  width: 800px;
+  height: 500px;
+  background-color: #fff;
+  position: relative;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 10px;
+}
+
+.game {
+  /* display: none; */
+}
+
+.content {
+  padding: 50px;
+}
+
+.question {
+  font-size: 40px;
+}
+
+.answer {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.submit {
+  width: 100%;
+  border: none;
+  background-color: #00b3b3;
+  color: #fff;
+  padding: 10px;
+  position: absolute;
+  bottom: 0;
+  cursor: pointer;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+.result {
+  display: none;
+  text-align: center;
+  padding: 50px;
+}
+
+.result h2 {
+  font-size: 3rem;
+}
+
+.correct {
+  color: green;
+}
+
+.wrong {
+  color: red;
+}
+
+.play {
+  color: #fff;
+  border: none;
+  padding: 10px;
+  background-color: rebeccapurple;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
